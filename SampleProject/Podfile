@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SampleProject' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SampleProject
+pod 'Realm', :git => 'http://github.com/realm/realm-cocoa.git', :branch => 'master', submodules: true
+    pod 'RealmSwift', :git => 'http://github.com/realm/realm-cocoa.git', :branch => 'master', submodules: true
+    pod 'Alamofire'
+    pod 'AlamofireImage', '~> 3.1'
+    pod 'AlamofireNetworkActivityIndicator', '~> 2.0'
+    pod 'SwiftKeychainWrapper'
+    pod 'SnapKit', '~> 3.0'
+    pod 'SDWebImage', '~>3.8'
+
+  target 'SampleProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
