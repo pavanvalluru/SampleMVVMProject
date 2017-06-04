@@ -1,6 +1,6 @@
 **ReadMe**
 
-This project has been implemented in Swift 3 and all the views and viewcontrollers are also implemented through code using Autolayout. 
+This project has been implemented in Swift 3 and all the views and viewcontrollers are also implemented through code using Autolayout (No Storyboard file is used to make UI). 
 
 This project contains a PageViewController inside a NavigationController and the PageViewController has a ProfileView in the left side, FriendsList in the center and a configMenu in the right all using MVVM pattern and demonstrates how MVVM helps in writing a more readable and maintainable code compared to typical MVC style.
 
