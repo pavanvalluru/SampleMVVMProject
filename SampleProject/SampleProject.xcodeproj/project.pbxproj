@@ -12,7 +12,6 @@
 		25C4A9F81EE4A65400AE3DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C4A9F61EE4A65400AE3DFA /* Main.storyboard */; };
 		25C4A9FA1EE4A65400AE3DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C4A9F91EE4A65400AE3DFA /* Assets.xcassets */; };
 		25C4A9FD1EE4A65400AE3DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C4A9FB1EE4A65400AE3DFA /* LaunchScreen.storyboard */; };
-		25C4AA081EE4A65400AE3DFA /* SampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C4AA071EE4A65400AE3DFA /* SampleProjectTests.swift */; };
 		25C4AA141EE4A6BD00AE3DFA /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C4AA121EE4A6BD00AE3DFA /* RootNavigationController.swift */; };
 		25C4AA151EE4A6BD00AE3DFA /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C4AA131EE4A6BD00AE3DFA /* RootPageViewController.swift */; };
 		25C4AA1B1EE4A6EF00AE3DFA /* ConfigUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C4AA171EE4A6EF00AE3DFA /* ConfigUpdateViewController.swift */; };
@@ -62,6 +61,7 @@
 		25C4AA7E1EE4A8C700AE3DFA /* SF-UI-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4AA751EE4A8C700AE3DFA /* SF-UI-Text-RegularItalic.otf */; };
 		25C4AA7F1EE4A8C700AE3DFA /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4AA761EE4A8C700AE3DFA /* SF-UI-Text-Medium.otf */; };
 		25C4AA801EE4A8C700AE3DFA /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4AA771EE4A8C700AE3DFA /* SF-UI-Text-Regular.otf */; };
+		25C4AA821EE5B5AF00AE3DFA /* UserProfileTableViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C4AA811EE5B5AF00AE3DFA /* UserProfileTableViewModelTests.swift */; };
 		FA66D7232880F983372E0FE3 /* Pods_SampleProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39FDD671A75A0932C0C47E2 /* Pods_SampleProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,7 +84,6 @@
 		25C4A9FC1EE4A65400AE3DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25C4A9FE1EE4A65400AE3DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25C4AA031EE4A65400AE3DFA /* SampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		25C4AA071EE4A65400AE3DFA /* SampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProjectTests.swift; sourceTree = "<group>"; };
 		25C4AA091EE4A65400AE3DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25C4AA121EE4A6BD00AE3DFA /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
 		25C4AA131EE4A6BD00AE3DFA /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +135,7 @@
 		25C4AA751EE4A8C700AE3DFA /* SF-UI-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-RegularItalic.otf"; sourceTree = "<group>"; };
 		25C4AA761EE4A8C700AE3DFA /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
 		25C4AA771EE4A8C700AE3DFA /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		25C4AA811EE5B5AF00AE3DFA /* UserProfileTableViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewModelTests.swift; sourceTree = "<group>"; };
 		4FB41A4E476D6DAD0A0D56DB /* Pods-SampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleProjectTests/Pods-SampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		55A2AF0E37734A2A4DBD2FF4 /* Pods-SampleProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleProjectTests/Pods-SampleProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C39FDD671A75A0932C0C47E2 /* Pods_SampleProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,8 +211,8 @@
 		25C4AA061EE4A65400AE3DFA /* SampleProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				25C4AA071EE4A65400AE3DFA /* SampleProjectTests.swift */,
 				25C4AA091EE4A65400AE3DFA /* Info.plist */,
+				25C4AA811EE5B5AF00AE3DFA /* UserProfileTableViewModelTests.swift */,
 			);
 			path = SampleProjectTests;
 			sourceTree = "<group>";
@@ -631,7 +631,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C4AA081EE4A65400AE3DFA /* SampleProjectTests.swift in Sources */,
+				25C4AA821EE5B5AF00AE3DFA /* UserProfileTableViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
