@@ -89,7 +89,7 @@ class ConfigurablePageViewController: UIPageViewController {
     }
     
     override var prefersStatusBarHidden : Bool {
-        return showStatusBar
+        return !showStatusBar
     }
     
     /**
