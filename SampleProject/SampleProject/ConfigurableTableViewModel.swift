@@ -1,6 +1,6 @@
 //
 //  ConfigurableTableViewModel.swift
-//  OffBlock3
+//  SampleProject
 //
 //  Created by Pavan Kumar Valluru on 11.04.17.
 //  Copyright © 2017 Pavan Kumar Valluru. All rights reserved.

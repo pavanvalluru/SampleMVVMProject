@@ -1,6 +1,6 @@
 //
 //  UIBezierPath+Extensions.swift
-//  OffBlock3
+//  SampleProject
 //
 //  Created by Pavan Kumar Valluru on 01.06.17.
 //  Copyright © 2017 Pavan Kumar Valluru. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  ConfigurableTableSubTitleCell.swift
-//  OffBlock3
+//  SampleProject
 //
 //  Created by Pavan Kumar Valluru on 18.04.17.
 //  Copyright © 2017 Pavan Kumar Valluru. All rights reserved.
@@ -39,8 +39,8 @@ extension ConfigurableTableViewSubTitleCellDataSource {
         get {
             switch category {
             case ConfigurableTableSubTitleCell.SubTitleCellCategory.Upgrade.rawValue:
-                return "OffBlock BASIC"
-            case ConfigurableTableSubTitleCell.SubTitleCellCategory.AboutOffblock.rawValue:
+                return "BASIC"
+            case ConfigurableTableSubTitleCell.SubTitleCellCategory.AboutApp.rawValue:
                 return "Version \(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String)"
             default:
                 return "<empty>"
@@ -54,7 +54,7 @@ extension ConfigurableTableViewSubTitleCellDataSource {
             return "HomeActive"
         case ConfigurableTableSubTitleCell.SubTitleCellCategory.Profile.rawValue:
             return "Profile"
-        case ConfigurableTableSubTitleCell.SubTitleCellCategory.AboutOffblock.rawValue:
+        case ConfigurableTableSubTitleCell.SubTitleCellCategory.AboutApp.rawValue:
             return "Info"
         default:
             return ""
@@ -66,7 +66,7 @@ extension ConfigurableTableViewSubTitleCellDataSource {
 class ConfigurableTableSubTitleCell: ConfigurableTableViewCell {
     
     enum SubTitleCellCategory: Int {
-        case Upgrade = 0, Profile, AboutOffblock
+        case Upgrade = 0, Profile, AboutApp
     }
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
