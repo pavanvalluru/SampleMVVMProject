@@ -1,6 +1,6 @@
 //
 //  UserProfileViewModel.swift
-//  OffBlock3
+//  SampleProject
 //
 //  Created by Pavan Kumar Valluru on 10.04.17.
 //  Copyright © 2017 Pavan Kumar Valluru. All rights reserved.

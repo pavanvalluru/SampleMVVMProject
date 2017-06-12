@@ -1,6 +1,6 @@
 //
 //  ValueSelectionViewModel.swift
-//  OffBlock3
+//  SampleProject
 //
 //  Created by Pavan Kumar Valluru on 08.04.17.
 //  Copyright © 2017 Pavan Kumar Valluru. All rights reserved.
