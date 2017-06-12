@@ -1,6 +1,6 @@
 //
-//  OffBlockTableViewController.swift
-//  OffBlock3
+//  ConfigurableTableViewController.swift
+//  SampleProject
 //
 //  Created by Pavan Kumar Valluru on 07.04.17.
 //  Copyright © 2017 Pavan Kumar Valluru. All rights reserved.
